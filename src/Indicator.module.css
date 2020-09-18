@@ -1,0 +1,29 @@
+.IndicatorContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.IndicatorContent {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Indicators {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Indicators button {
+  border: none;
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  background: #ccc;
+  margin-right: 7px;
+  outline: none;
+  cursor: pointer;
+}
+
+.Indicators .Active {
+  background-color: rgb(82, 79, 79);
+}
